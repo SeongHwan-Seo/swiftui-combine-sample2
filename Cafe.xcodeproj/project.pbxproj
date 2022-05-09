@@ -19,6 +19,9 @@
 		CFD7862B2821482400F132D5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7862A2821482400F132D5 /* HomeView.swift */; };
 		CFD7862D282148C000F132D5 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7862C282148C000F132D5 /* HomeHeaderView.swift */; };
 		CFD7863028214C6900F132D5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7862F28214C6900F132D5 /* User.swift */; };
+		CFE42569282935CE007EBF74 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE42568282935CE007EBF74 /* OtherView.swift */; };
+		CFE4256B282937BE007EBF74 /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4256A282937BE007EBF74 /* SettingMenu.swift */; };
+		CFE4256E28293FAC007EBF74 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4256D28293FAC007EBF74 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		CFD7862A2821482400F132D5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CFD7862C282148C000F132D5 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		CFD7862F28214C6900F132D5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CFE42568282935CE007EBF74 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		CFE4256A282937BE007EBF74 /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
+		CFE4256D28293FAC007EBF74 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 			children = (
 				CF4CBC17281FF7BE000C009C /* Tab */,
 				CFD7862E282148D800F132D5 /* Home */,
+				CFE4256C28293F9C007EBF74 /* Other */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -113,6 +120,16 @@
 				CF4CBC1D281FFD55000C009C /* EventsSectionView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		CFE4256C28293F9C007EBF74 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CFE42568282935CE007EBF74 /* OtherView.swift */,
+				CFE4256A282937BE007EBF74 /* SettingMenu.swift */,
+				CFE4256D28293FAC007EBF74 /* SettingView.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,11 +207,14 @@
 				CFB93AD2281ABCAA00D8BA5E /* Tab.swift in Sources */,
 				CFD7862D282148C000F132D5 /* HomeHeaderView.swift in Sources */,
 				CF4CBC1E281FFD55000C009C /* EventsSectionView.swift in Sources */,
+				CFE42569282935CE007EBF74 /* OtherView.swift in Sources */,
 				CFB93AC6281AB78500D8BA5E /* MainTabView.swift in Sources */,
 				CFD7862B2821482400F132D5 /* HomeView.swift in Sources */,
+				CFE4256E28293FAC007EBF74 /* SettingView.swift in Sources */,
 				CF4CBC20281FFDB6000C009C /* Event.swift in Sources */,
 				CFD7863028214C6900F132D5 /* User.swift in Sources */,
 				CFB93AC4281AB78500D8BA5E /* CafeApp.swift in Sources */,
+				CFE4256B282937BE007EBF74 /* SettingMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
